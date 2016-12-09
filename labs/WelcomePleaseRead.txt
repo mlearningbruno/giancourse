@@ -1,0 +1,13 @@
+This virtual machine contains open source software installed by Bruno Pouliquen for the Gian course labs (Dec 2016, Varanasi, India). 
+If  you intend to use it elsewhere please install the virtual machine yourselves, and please read the terms and conditions of each software installed:
+
+amunmt: https://github.com/emjotde/amunmt (read LICENSE)
+nematus: https://github.com/rsennrich/nematus (read LICENSE)
+subword-nmt: https://github.com/rsennrich/subword-nmt.git
+moses: http://www.statmt.org/moses/ (LGPL license)
+joshua: http://joshua.incubator.apache.org/
+indic corpora: http://homepages.inf.ed.ac.uk/miles/babel.html
+meteor: http://www.cs.cmu.edu/~alavie/METEOR/
+tercom: http://www.cs.umd.edu/~snover/tercom/
+
+Bruno Pouliquen, 8/12/2016
