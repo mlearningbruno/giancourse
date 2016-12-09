@@ -1,4 +1,4 @@
-# V2.05 6/12/2016 BP
+# V2.06 9/12/2016 BP
 
 # Send instructions:
 cat ~/installSmtLabs.sh | mail -s '~/installSmtLabs.sh' bruno.pouliquen@wipo.int
@@ -196,7 +196,16 @@ hadoop fs -mkdir /home/smt/hadoopFS
 
 sudo apt-get install -y python3-pip
 pip3 install jupyter
-jupyter notebook
+jupyter notebook &
 
 # Install Indic NLP tools
 git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
+
+# install METEOR / TER
+wget http://www.cs.umd.edu/~snover/tercom/tercom-0.7.25.tgz
+tar xzf tercom-0.7.25.tgz
+
+wget http://www.cs.cmu.edu/~alavie/METEOR/download/meteor-1.5.tar.gz
+tar xzvf meteor-1.5.tar.gz
+
+

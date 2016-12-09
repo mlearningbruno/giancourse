@@ -9,11 +9,8 @@ alpha = 0.01
 training = []
 category = []
 lines=[]
-fileName='test.txt'
-if sys.argv.len > 1:
-    fileName=sys.argv[1]
 
-with open(fileName, 'r') as f:
+with open('/home/smt/Icon2016/labs/test.txt', 'r') as f:
     for line in f:
         lines.append(line)
         training.append([line.lower().count(ch) 
@@ -45,3 +42,4 @@ for test in range(n, n - 10, -1):
     
     if (goal_prediction != prediction):
         print ("Test:" + str(test) + " "+lines[test]+" error=" + str(error) + " Prediction:" + str(prediction)+" was"+str(goal_prediction))
+

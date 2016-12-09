@@ -10,4 +10,6 @@ indic corpora: http://homepages.inf.ed.ac.uk/miles/babel.html
 meteor: http://www.cs.cmu.edu/~alavie/METEOR/
 tercom: http://www.cs.umd.edu/~snover/tercom/
 
-Bruno Pouliquen, 8/12/2016
+Please connect to https://github.com/mlearningbruno/giancourse
+
+Bruno Pouliquen, 9/12/2016
